@@ -1,0 +1,8 @@
+,ham kept,ham flagged,spam missed,spam caught
+majority,904,0,128,0
+mnb,901,3,13,115
+bnb,904,0,16,112
+gnb_words,900,4,41,87
+gnb_stats,876,28,20,108
+hybrid,896,8,13,115
+logreg,901,3,18,110

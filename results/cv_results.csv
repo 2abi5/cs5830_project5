@@ -1,0 +1,8 @@
+key,model,best settings,CV F1,CV F1 sd
+majority,Majority class (always ham),none,0.0,0.0
+mnb,Multinomial NB · word counts,"ngram_range=(1, 1), alpha=0.1",0.9554386116366607,0.005646047832145991
+bnb,Bernoulli NB · word presence,"ngram_range=(1, 1), alpha=0.1",0.9670883627837424,0.0025414947625274163
+gnb_words,Gaussian NB · word counts,var_smoothing=0.1,0.8585078625056454,0.0252455604326973
+gnb_stats,Gaussian NB · 8 message statistics,var_smoothing=1e-09,0.8861399346260486,0.02445287577210788
+hybrid,Hybrid NB · words + statistics,"alpha=0.1, ngram_range=(1, 2), var_smoothing=1e-09",0.9629364018854805,0.003342651405894642
+logreg,Logistic regression · word counts,"ngram_range=(1, 1), C=100.0",0.9505126329863469,0.005244146490837255

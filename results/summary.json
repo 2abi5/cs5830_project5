@@ -1,0 +1,18 @@
+{
+  "raw_messages": 5574,
+  "raw_spam": 747,
+  "raw_exact_duplicates": 403,
+  "duplicates_removed": 415,
+  "clean_messages": 5159,
+  "clean_spam": 641,
+  "spam_share": 0.12424888544291529,
+  "train_messages": 4127,
+  "test_messages": 1032,
+  "test_spam": 128,
+  "vocabulary": 7000,
+  "scratch_vs_sklearn_max_gap": 1.4210854715202004e-14,
+  "final_model": "Bernoulli NB \u00b7 word presence",
+  "final_key": "bnb",
+  "cost_threshold_log_odds": 4.884031860339036,
+  "cost_threshold_probability": 0.9924903755714015
+}
